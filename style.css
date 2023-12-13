@@ -1005,7 +1005,8 @@
 }
 
 #es-magne-b6.es-magne-b6 .es-video__iframe {
-    min-height: 270px;
+    /* min-height: 270px; */
+    aspect-ratio: 16/9;
 }
 
 #es-magne-b6.es-magne-b6 .es-cross {
@@ -1076,6 +1077,7 @@
     text-decoration: none;
     margin-bottom: 32px;
     font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem);
+    cursor: pointer;
 }
 
 #es-magne-b6.es-magne-b6 .es-cross__single {
@@ -1540,12 +1542,12 @@
         font-size: 20px;
     }
     #es-magne-b6.es-magne-b6 .es-video {
-        width: 80%;
+        width: 90%;
         margin-inline: auto;
     }
-    #es-magne-b6.es-magne-b6 .es-video__iframe {
+    /* #es-magne-b6.es-magne-b6 .es-video__iframe {
         min-height: 400px;
-    }
+    } */
     #es-magne-b6.es-magne-b6 .es-cross__content {
         flex-direction: row;
         flex-wrap: wrap;
